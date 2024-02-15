@@ -1,0 +1,25 @@
+{
+  "name": "chess",
+  "version": "1.0.0",
+  "description": "The game of chess.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaron-cui/chess.git"
+  },
+  "author": "jaron-cui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaron-cui/chess/issues"
+  },
+  "homepage": "https://github.com/jaron-cui/chess#readme",
+  "dependencies": {
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.10"
+  }
+}
