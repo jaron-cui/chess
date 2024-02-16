@@ -2,6 +2,7 @@ import * as PIXI from 'pixi.js';
 import { useEffect, useRef } from 'react';
 import { BoardLocation, ChessBoard } from './chess';
 import { ChessBoardRenderer } from './render';
+import React from 'react';
 
 async function createApp(): Promise<PIXI.Application<HTMLCanvasElement>> {
   const app = new PIXI.Application<HTMLCanvasElement>({ background: '#7acdeb', width: 600, height: 400 });
